@@ -3,7 +3,7 @@ import Video from './Video'
 
 const HomeHeroText = () => {
   return (
-    <div className='font-[font1] pt-5 text-center' >
+    <div className='font-[font1] lg:pt-5 pt-20 text-center' >
       <div className='text-[10vw] flex items-center justify-center uppercase leading-[9vw]'>L'étincelle</div>
 
       <div className='text-[10vw] flex items-center justify-center uppercase leading-[9vw]'>

@@ -55,7 +55,6 @@ const Projects = () => {
     })
   })
 
-
   return (
     <div className='lg:p-4 p-2 mb-[100vh] text-black'>
       <div className=' pt-[45vh]'>
@@ -63,8 +62,8 @@ const Projects = () => {
       </div>
       <div className='-lg:mt-20 lol'>
         {projectsImages.map(function (elem, idx) {
-          return <div key={idx} className='hero w-full lg:h-[400px] h-[800px] mb-4 flex lg:flex-row flex-col lg:gap-4 gap-2'>
-            <ProjectCard image={elem} />
+          return <div key={idx} className='hero w-full lg:h-[400px] h-[600px] mb-4 flex lg:flex-row flex-col lg:gap-4 gap-2'>
+            <ProjectCard image={elem}/>
           </div>
         })}
 
